@@ -1,6 +1,8 @@
 package builder;
 
-class Beehive {
+import java.util.Arrays;
+
+public class Beehive {
 
     private Room[][] roomList;
     //private Bee[][] beeList;
@@ -19,4 +21,15 @@ class Beehive {
         return beeList;
     }
     */
+    
+    public String printRooms() {
+        String output = "";
+        for (int i = 0; i < roomList.length; i++) {
+            for (int j = 0; j < roomList[i].length; j++) {
+                output += roomList[i][j] + " ";
+            }
+            output += "\n";
+        }
+        return output;
+    }
 }

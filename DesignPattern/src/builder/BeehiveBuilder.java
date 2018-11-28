@@ -1,12 +1,22 @@
 package builder;
 
+import java.util.Arrays;
+
 public class BeehiveBuilder {
 
     protected Room[][] roomList;
     //protected Bee[][] beeList;
+    private int col;
+    private int row;
     
+    /*
     private BeehiveBuilder() {
-        
+    }
+    */
+    
+    public BeehiveBuilder() {
+        Room[][] temp = new Room[5][5];
+        this.roomList = temp;
     }
     
     //TODO: ADD BEES TO THE INPUT
