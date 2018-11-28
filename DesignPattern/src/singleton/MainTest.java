@@ -7,8 +7,29 @@ public class MainTest {
         Test.spawnHive();
         Test.spawnHive();
         Test.spawnHive();
-        System.out.println(Test.beehive[0][0].printRooms());
-        System.out.println(Test.beehive[0][1].printRooms());
-        System.out.println(Test.beehive[0][2].printRooms());
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.spawnHive();
+        Test.printHiveTypes();
+        Test.printHives();
     }
 }

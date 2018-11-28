@@ -2,13 +2,17 @@ package builder;
 
 import java.util.Arrays;
 
+import Strategy.BeeType;
+
 public class Beehive {
 
+    BeeType beeType;
     private Room[][] roomList;
     //private Bee[][] beeList;
     
     public Beehive(BeehiveBuilder builder) {
         this.roomList = builder.roomList;
+        this.beeType = builder.beeType;
         //this.beeList = builder.beeList;
     }
     
@@ -16,6 +20,9 @@ public class Beehive {
         return roomList;
     }
     
+    public BeeType getBeeType() {
+        return beeType;
+    }
     /*
     public Bee[][] getBees() {
         return beeList;
